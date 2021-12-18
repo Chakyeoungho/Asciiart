@@ -96,7 +96,7 @@ void ConvertBitmap(char *strFileName, PBITMAPINFOHEADER pBitmapInfoHeader, BYTE 
 	FILE *pASCIIArt;
 	RGBTRIPLE *pRGBTriple;
 	BYTE GrayScale;
-
+	
 	iWidth = pBitmapInfoHeader->biWidth;
 	iHeight = pBitmapInfoHeader->biHeight;
 
